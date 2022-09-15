@@ -4,3 +4,5 @@
 == Test
 
 image::test.png[]
+
+abbr:GUI[graphical user interface]
