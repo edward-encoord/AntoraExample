@@ -18,6 +18,13 @@ content:
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+    index_latest_only: true
 asciidoc:
   extensions:
   - ./js/abbr-inline-macro.js/
+runtime:
+  log:
+    level: error
