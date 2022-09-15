@@ -1,0 +1,6 @@
+
+= Welcome
+
+== Test
+
+image::test.png[]

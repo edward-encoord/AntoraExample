@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@antora/cli": "~3.1.0",
+    "@antora/site-generator": "~3.1.0"
+  },
+  "dependencies": {
+    "@antora/lunr-extension": "1.0.0-alpha.8"
+  },
+  "engines": {
+    "node": "16.13.1"
+  }
+}

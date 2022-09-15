@@ -1,0 +1,23 @@
+site:
+  title: Docs (Development Version)
+  ## The 404 page and sitemap files only get generated when the url property is
+  ## set.
+  url: https://docs.encoord.com
+  start_page: welcome:ROOT:index.adoc
+content:
+  ## Disable the edit URL. Taken from
+  ## https://docs.antora.org/antora/latest/playbook/content-edit-url. It still
+  ## shows the button and the source code of the file. Need to edit
+  ## "toolbar.hbs" to disable this button.
+  edit_url: false
+  sources:
+  ## The page files in the current branch in the local machine are used.
+  - url: .
+    branches: [HEAD]
+    start_path: welcome
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+asciidoc:
+  extensions:
+  - ./js/abbr-inline-macro.js/

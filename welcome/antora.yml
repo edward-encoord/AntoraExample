@@ -1,0 +1,7 @@
+name: welcome
+title: Welcome
+version: ~
+start_page: ROOT:index.adoc  # This is an one-page component.
+asciidoc:
+  attributes:
+    source-language: asciidoc@
