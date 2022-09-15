@@ -25,6 +25,3 @@ antora:
 asciidoc:
   extensions:
   - ./js/abbr-inline-macro.js/
-runtime:
-  log:
-    level: error

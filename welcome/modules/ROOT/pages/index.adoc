@@ -3,6 +3,8 @@
 
 == Test
 
+abbr:API[application programming interface]
+
 image::test.png[]
 
 abbr:GUI[graphical user interface]

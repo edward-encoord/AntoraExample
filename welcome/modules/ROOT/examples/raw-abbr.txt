@@ -1,1 +1,2 @@
 GUI:: graphical user interface
+API:: application programming interface
